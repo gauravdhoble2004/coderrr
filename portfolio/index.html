@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coderrr's Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap"
+     rel="stylesheet">
+<!-- for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <div class="background-image" aria-hidden="true"></div>
+
+  <header class="navbar" role="banner">
+    <div class="logo">Coderrr</div>
+
+    <nav class="nav-links" role="navigation" aria-label="Primary">
+      <a class="nav-link" href="#home">Home</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#experience">Experience</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="resume-desktop" href="#" target="_blank" rel="noopener">DOWNLOAD RESUME</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-expanded="false" aria-label="Toggle menu">
+      <span class="bar"></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" style="display:none">
+    <a href="#home" class="mobile-link">Home</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#experience" class="mobile-link">Experience</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <a class="resume-mobile" href="#" target="_blank" rel="noopener">DOWNLOAD RESUME</a>
+  </div>
+
+  <main id="home" class="hero" role="main">
+
+    <div class="hero-left">
+      <h1 class="hero-title">Hi, I'm <span>Coderrr</span></h1>
+
+      <div class="typed-container">
+        <h3 id="typed-text" class="typed-text" aria-live="polite"></h3>
+      </div>
+
+      <p class="hero-description">
+        I'm a passionate web developer who loves turning ideas into interactive digital experiences.
+        Skilled in front-end and back-end development, I enjoy building responsive, user-friendly websites.
+        Always eager to learn and explore new technologies to deliver modern solutions.
+      </p>
+
+      <div class="social-links" aria-label="Social links">
+        <a href="https://www.linkedin.com/in/gaurav-dhoble" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/gauravdhoble2004" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:gaurav724897.com" class="social-link" aria-label="Email">
+          <i class="far fa-envelope"></i>
+        </a>
+        <a href="/" class="social-link" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com/gaurav2004___" class="social-link" target="_blank" rel="noopener" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <div class="stats" aria-hidden="true">
+        <div class="stat-item">
+          <div class="stat-number">20+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">1</div>
+          <div class="stat-label">Years experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">100+</div>
+          <div class="stat-label">Commits</div>
+        </div>
+      </div>
+      
+      <!-- HIRE ME BUTTON -->
+      <button class="hire-me-btn" onclick="location.href='#contact'">
+        Hire Me
+      </button>
+    </div>
+
+    <!-- RIGHT: improved hero image -->
+    <div class="hero-image">
+      <img src="/hero.jpg" alt="My Photo">
+    </div>
+  </main>
+
+  <section id="skills" style="min-height:40vh;padding:60px 8% 80px;color:var(--light)"></section>
+  <section id="projects" style="min-height:40vh;padding:60px 8% 80px;color:var(--light)"></section>
+  <section id="experience" style="min-height:40vh;padding:60px 8% 80px;color:var(--light)"></section>
+  <section id="contact" style="min-height:40vh;padding:60px 8% 80px;color:var(--light)"></section>
+
+     <script src="script.js"></script>
+</body>
+</html>
